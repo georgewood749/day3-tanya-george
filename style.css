@@ -1,0 +1,32 @@
+.fixed {
+    position: fixed;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: grey;
+}
+
+.title {
+    color: black;
+    background-color: rgb(181, 181, 181);
+    border: 3px black solid;
+    border-width:auto;
+}
+
+.description {
+    color: black;
+    background-color: white;
+    border: 2px black solid;
+    text-align: center;
+}
+
+@media screen and (orientation: portrait) {
+    body {
+        background-color: rgb(191, 255, 234);
+    }
+}
