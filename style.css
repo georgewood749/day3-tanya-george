@@ -2,6 +2,28 @@
     position: fixed;
 }
 
+p {
+    margin-left: 2%;
+}
+
+h1 {
+    margin-left: 1%;
+}
+
+td {
+    background-color: rgb(225, 225, 225);
+    border: 1px white solid;
+}
+
+th {
+    background-color: rgb(181, 181, 181);
+    border: 1px white solid;
+}
+
+table {
+    margin-left: 3%;
+}
+
 a {
     text-decoration: none;
     color: white;
@@ -11,22 +33,38 @@ a:hover {
     color: grey;
 }
 
+.where {
+    background-color: rgb(136, 136, 136);
+    border: 1px white solid;
+}
+
 .title {
     color: black;
     background-color: rgb(181, 181, 181);
     border: 3px black solid;
-    border-width:auto;
+    border-width: auto;
 }
 
 .description {
     color: black;
-    background-color: white;
+    background-color: rgb(231, 231, 231);
     border: 2px black solid;
     text-align: center;
+    margin-left: 0;
 }
 
 @media screen and (orientation: portrait) {
     body {
         background-color: rgb(191, 255, 234);
+    }
+
+    body, nav, head {
+        width: 100%;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    body, nav, head {
+        width: 100%;
     }
 }
